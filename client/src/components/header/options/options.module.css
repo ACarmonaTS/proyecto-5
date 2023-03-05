@@ -1,0 +1,22 @@
+.option{
+    width: 8rem;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.option:hover{
+    scale: 150%;
+    background: linear-gradient(to right, rgb(255, 0, 136), rgb(130, 0, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
