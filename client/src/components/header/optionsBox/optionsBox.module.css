@@ -1,0 +1,29 @@
+@media (min-width: 1200px){
+    .boxOptions{
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 1199px){
+    .boxOptions{
+        width: 12rem;
+        height: 18rem;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        background-color: rgb(136, 102, 168);
+
+        position: fixed;
+        right: 0;
+        bottom: 3rem;
+
+        color: black;
+    }
+}

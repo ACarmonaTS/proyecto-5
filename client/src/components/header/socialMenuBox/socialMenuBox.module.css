@@ -1,0 +1,158 @@
+@media (min-width: 1200px){
+    .boxMlogos{
+        width: 22rem;
+        height: 3rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: fixed;
+        right: 2rem;
+    }
+
+    .social{
+        height: 100%;
+
+        display: flex;
+    }
+
+    .icons{
+        cursor: pointer;
+
+        margin: 0 10px;
+    }
+
+    p{       
+        height: 100%;
+
+        background-color: white;
+
+        margin: 0 10px;
+
+        cursor: default;
+    }
+
+    .market{
+        height: 100%;
+
+        cursor: pointer;
+
+        margin: 0 10px;
+    }
+
+    .notify{
+        width: 1.3rem;
+        height: 1.3rem;
+
+        border: 2px solid white;
+        border-radius: 50%;
+
+        position: absolute;
+        right: 5px;
+        top: -5px;
+
+        background-color: rgb(119, 0, 0);
+
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
+@media (max-width: 1199px){
+    .boxMlogos{
+        width: 16rem;
+        height: 2rem;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        position: fixed;
+        right: 0.5rem;
+    }
+    
+    .social{
+        height: 100%;
+    
+        display: flex;
+    }
+    
+    .icons{
+        cursor: pointer;
+    
+        margin: 0 10px;
+    }
+    
+    p{
+        height: 100%;
+    
+        background-color: rgb(255, 255, 255);
+    
+        margin: 0 10px;
+
+        cursor: default;
+    }
+    
+    .market{
+        width: 3rem;
+        height: 3rem;
+    
+        cursor: pointer;
+    
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+
+        background-color: rgb(37, 0, 71);
+
+        padding: 10px;
+        
+        border-radius: 50%;
+    }
+    
+    .notify{
+        width: 1.3rem;
+        height: 1.3rem;
+    
+        border: 2px solid white;
+        border-radius: 50%;
+    
+        position: absolute;
+        right: -8px;
+        top: -5px;
+    
+        background-color: rgb(119, 0, 0);
+    
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .menu{
+        display: flex;
+
+        margin: 0 10px;
+    }
+
+    .icoMenus{
+        display: block;
+
+        margin: 0;
+
+        cursor: pointer;
+    }
+
+    .icoBack{
+        display: none;
+
+        cursor: pointer;
+    }
+}
