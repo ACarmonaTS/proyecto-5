@@ -10,11 +10,10 @@
     font-weight: bold;
 
     cursor: pointer;
-
 }
 
 .option:hover{
-    font-size: xx-large;
+    font-size: 150%;
     
     background-color: rgb(37, 0, 71);
 }

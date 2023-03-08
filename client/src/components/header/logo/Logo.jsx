@@ -1,4 +1,5 @@
 import styles from "./logo.module.css"
+
 import { logos } from "../../../assets/logosInfo.jsx"; 
 import Image from "../../ImgInsert.jsx";
 
