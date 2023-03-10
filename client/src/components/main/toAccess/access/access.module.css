@@ -1,0 +1,305 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 30rem;
+    height: 35rem;
+
+    margin-top: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(37, 0, 71, 0.5);
+  }
+
+  form {
+    width: 25rem;
+    height: 20rem;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .session {
+    height: 2rem;
+
+    font-size: xx-large;
+    text-align: center;
+
+    color: white;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+  }
+
+  .inputs {
+    width: 100%;
+    height: 8rem;
+
+    margin: 5px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    width: 90%;
+    height: 2rem;
+
+    text-align: center;
+    font-weight: bold;
+
+    font-size: x-large;
+
+    border: 0;
+    border-radius: 1rem;
+
+    margin: auto;
+  }
+
+  .access {
+    width: 11rem;
+    height: 2.5rem;
+
+    background-color: white;
+
+    font-weight: bold;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 1rem;
+
+    cursor: pointer;
+
+    margin: 20px 0;
+  }
+
+  .access:hover {
+    background-color: rgb(37, 0, 71);
+
+    color: white;
+
+    border: 1px solid white;
+
+    margin: 19px 0;
+  }
+
+  hr {
+    width: 90%;
+    height: 2px;
+
+    background-color: white;
+  }
+
+  .socialMedia {
+    width: 25rem;
+    height: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+  }
+
+  .btnAccess {
+    width: 90%;
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 2rem;
+
+    background-color: rgb(255, 255, 255);
+
+    margin: 15px 0;
+
+    font-weight: bold;
+  }
+
+  .btnAccess:hover {
+    border: 1px solid rgb(255, 255, 255);
+
+    background-color: rgb(37, 0, 71);
+
+    margin: 14px 0;
+
+    color: white;
+
+    cursor: pointer;
+  }
+
+  .option {
+    width: 2rem;
+    height: 2rem;
+
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 80%;
+    height: 35rem;
+
+    margin-bottom: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(37, 0, 71, 0.5);
+  }
+
+  form {
+    width: 95%;
+    height: 20rem;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .session {
+    height: 2rem;
+
+    font-size: xx-large;
+    text-align: center;
+
+    color: white;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+  }
+
+  .inputs {
+    width: 100%;
+    height: 8rem;
+
+    margin: 5px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    width: 90%;
+    height: 2rem;
+
+    text-align: center;
+    font-weight: bold;
+
+    font-size: x-large;
+
+    border: 0;
+    border-radius: 1rem;
+
+    margin: auto;
+  }
+
+  .access {
+    width: 11rem;
+    height: 2.5rem;
+
+    background-color: white;
+
+    font-weight: bold;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 1rem;
+
+    cursor: pointer;
+
+    margin: 20px 0;
+  }
+
+  .access:hover {
+    background-color: rgb(37, 0, 71);
+
+    color: white;
+
+    border: 1px solid white;
+
+    margin: 19px 0;
+  }
+
+  hr {
+    width: 90%;
+    height: 2px;
+
+    background-color: white;
+  }
+
+  .socialMedia {
+    width: 95%;
+    height: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+  }
+
+  .btnAccess {
+    width: 75%;
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 2rem;
+
+    background-color: rgb(255, 255, 255);
+
+    margin: 15px 0;
+
+    font-weight: bold;
+  }
+
+  .btnAccess:hover {
+    border: 1px solid rgb(255, 255, 255);
+
+    background-color: rgb(37, 0, 71);
+
+    margin: 14px 0;
+
+    color: white;
+
+    cursor: pointer;
+  }
+
+  .option {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    margin: 0 10px;
+  }
+}

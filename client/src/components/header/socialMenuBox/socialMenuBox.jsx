@@ -26,7 +26,7 @@ const SocialMenuBox = () => {
   };
 
   return(
-    <div className={styles.boxMlogos}>
+    <div className={styles.container}>
         <div className={styles.social}>
           {mLogos.map((logo) => (
             <div key={logo.alt} className={styles.icons}>
@@ -34,7 +34,7 @@ const SocialMenuBox = () => {
             </div>
           ))}
         </div>
-        <p>&nbsp;</p>
+        <p className={styles.space}>&nbsp;</p>
         <div className={styles.market}>
           <Image src={market.src} alt={market.alt} />
           <div className={styles.notify}>5</div>

@@ -1,3 +1,3 @@
-const dataOptions = [ "INICIO", "SERVICIOS", "BLOG", "DISEÑOS", "ACCEDER"];
+const dataOptions = [ "INICIO", "SERVICIOS", "BLOG", "DISEÑOS"];
 
 export default dataOptions

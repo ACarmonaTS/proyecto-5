@@ -5,7 +5,7 @@ import Image from "../../ImgInsert.jsx";
 
 const Logo = () => {
 return (
-    <div className={styles.logoBox}>
+    <div className={styles.container}>
         <Image src={logos[1].src} alt={logos[1].alt} />
     </div> 
 )}

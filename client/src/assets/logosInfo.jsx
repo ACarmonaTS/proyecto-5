@@ -11,6 +11,8 @@ import whatsapp from "./whatsapp.svg";
 import youtube from "./youtube.svg";
 import menu from "./menu.svg";
 import back from "./back.svg";
+import facebookLogin from "./facebookLogin.svg"
+import googleLogin from "./googleLogin.svg"
 
 export const logos = [
   { src: darkLogo, alt: "DARK LOGO" },
@@ -32,3 +34,6 @@ export const market = { src: zMarket, alt: "TUS COMPRAS"};
 
 export const menus = { src: menu, alt: "MENÚ"};
 export const backMenu = { src: back, alt: "CERRAR"};
+
+export const googleLog = { src: googleLogin, alt: "GOOGLE"};
+export const faceLog = { src: facebookLogin, alt: "FACEBOOK"};
