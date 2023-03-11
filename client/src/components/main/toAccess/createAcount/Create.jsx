@@ -1,55 +1,62 @@
-import style from "./create.module.css";
+import styles from "./create.module.css";
 
 import Image from "../../../ImgInsert";
 import { faceLog, googleLog } from "../../../../assets/logosInfo";
 const Create = () => {
+  function toAccess() {
+    document.getElementById("create").style.display = "none";
+    document.getElementById("access").style.display = "flex";
+  }
   return (
-    <section className={style.container}>
-      <form className={style.form}>
-        <p className={style.session}>REGISTRO</p>
-        <div className={style.inputs}>
+    <section className={styles.container}>
+      <form className={styles.form}>
+        <p className={styles.session}>REGISTRO</p>
+        <div className={styles.inputs}>
           <input
-            className={style.input}
+            className={styles.input}
             type="text"
             placeholder="Nombre - (Alias)"
             autoComplete="off"
           />
           <input
-            className={style.input}
+            className={styles.input}
             type="email"
             placeholder="Correo"
             autoComplete="off"
           />
           <input
-            className={style.input}
+            className={styles.input}
             type="tel"
             placeholder="Número celular"
           />
           <input
-            className={style.input}
+            className={styles.input}
             type="password"
             placeholder="Contraseña"
           />
           <input
-            className={style.input}
+            className={styles.input}
             type="password"
             placeholder="Comprobar contraseña"
           />
         </div>
-        <div className={style.access} type="submit">
+        <div className={styles.access} type="submit">
           CREAR CUENTA
+        </div>
+        <div onClick={toAccess} className={styles.create}>
+          INICIAR SESIÓN
         </div>
       </form>
       <hr />
-      <div className={style.socialMedia}>
-        <div className={style.btnAccess}>
-          <div className={style.option}>
+      <div className={styles.socialMedia}>
+        <div className={styles.btnAccess}>
+          <div className={styles.option}>
             <Image src={faceLog.src} alt={faceLog.alt} />
           </div>
           CREAR CON FACEBOOK
         </div>
-        <div className={style.btnAccess}>
-          <div className={style.option}>
+        <div className={styles.btnAccess}>
+          <div className={styles.option}>
             <Image src={googleLog.src} alt={googleLog.alt} />
           </div>
           CREAR CON GOOGLE

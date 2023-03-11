@@ -3,9 +3,7 @@
     width: 30rem;
     height: 35rem;
 
-    margin-top: 8rem;
-
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -26,7 +24,7 @@
   }
 
   .session {
-    height: 2rem;
+    height: 1.5rem;
 
     font-size: xx-large;
     text-align: center;
@@ -34,7 +32,7 @@
     color: white;
     font-weight: bold;
 
-    margin: 0 0 40px 0;
+    margin: 20px 0 40px 0;
   }
 
   .inputs {
@@ -92,7 +90,7 @@
 
     border: 1px solid white;
 
-    margin: 34px 0 0 0;
+    margin: 33px 0 0 0;
   }
 
   hr {
@@ -149,14 +147,43 @@
 
     margin: 0 10px;
   }
+
+  .create {
+    width: 11rem;
+    height: 2rem;
+
+    background-color: rgb(248, 243, 112);
+
+    font-weight: bold;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 1rem;
+
+    cursor: pointer;
+
+    margin: 20px 0 0 0;
+  }
+
+  .create:hover {
+    background-color: rgb(90, 88, 17);
+
+    color: white;
+
+    border: 1px solid white;
+
+    margin: 18px 0 0 0;
+  }
 }
 
 @media (max-width: 1199px) {
   .container {
     width: 80%;
     height: 35rem;
-
-    margin-bottom: 3rem;
 
     display: flex;
     flex-direction: column;
@@ -187,7 +214,7 @@
     color: white;
     font-weight: bold;
 
-    margin: 0 0 40px 0;
+    margin: 20px 0 20px 0;
   }
 
   .inputs {
@@ -301,5 +328,36 @@
     height: 1.5rem;
 
     margin: 0 10px;
+  }
+
+  .create {
+    width: 11rem;
+    height: 2rem;
+
+    background-color: rgb(248, 243, 112);
+
+    font-weight: bold;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 1rem;
+
+    cursor: pointer;
+
+    margin: 20px 0 0 0;
+  }
+
+  .create:hover {
+    background-color: rgb(90, 88, 17);
+
+    color: white;
+
+    border: 1px solid white;
+
+    margin: 18px 0 0 0;
   }
 }

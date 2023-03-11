@@ -5,7 +5,8 @@ import { faceLog, googleLog } from "../../../../assets/logosInfo";
 
 const Access = () => {
   function toCreate() {
-    console.log("hola ...");
+    document.getElementById("access").style.display = "none";
+    document.getElementById("create").style.display = "flex";
   }
   return (
     <section className={styles.container}>
