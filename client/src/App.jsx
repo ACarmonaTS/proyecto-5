@@ -1,5 +1,5 @@
-import Header from "./components/header/Header.jsx"
-import Main from "./components/main/main.jsx"
+import Header from "./components/header/Header.jsx";
+import Main from "./components/main/Main.jsx";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <Header />
       <Main />
     </>
-  )
-} 
+  );
+}
 
-export default App
+export default App;

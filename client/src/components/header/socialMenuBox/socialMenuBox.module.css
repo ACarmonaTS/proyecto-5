@@ -1,174 +1,183 @@
-@media (min-width: 1200px){
-    .container{
-        width: 22rem;
-        height: 3rem;
+@media (min-width: 1200px) {
+  .container {
+    width: 22rem;
+    height: 3rem;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        position: fixed;
-        right: 2rem;
-    }
+    position: fixed;
+    right: 2rem;
+  }
 
-    .social{
-        height: 100%;
+  .social {
+    height: 100%;
 
-        display: flex;
-    }
+    display: flex;
+  }
 
-    .icons{
-        cursor: pointer;
+  .icons {
+    cursor: pointer;
 
-        margin: 0 10px;
-    }
+    margin: 0 10px;
+  }
 
-    .icons:hover{
-        background: linear-gradient( rgba(37, 0, 71, 0.907) 80%,  rgba(94, 0, 182, 0.907) 20%);
-    }
+  .icons:hover {
+    background: linear-gradient(
+      rgba(37, 0, 71, 0.907) 80%,
+      rgba(94, 0, 182, 0.907) 20%
+    );
+  }
 
-    .space{       
-        height: 100%;
+  .space {
+    height: 100%;
 
-        background-color: white;
+    background-color: white;
 
-        margin: 0 10px;
+    margin: 0 10px;
 
-        cursor: default;
-    }
+    cursor: default;
+  }
 
-    .market{
-        height: 100%;
+  .market {
+    height: 100%;
 
-        cursor: pointer;
+    cursor: pointer;
 
-        margin: 0 10px;
-    }
+    margin: 0 10px;
+  }
 
-    .market:hover{
-        background: linear-gradient( rgba(37, 0, 71, 0.907) 80%, rgb(98, 15, 175) 20%);
-    }
+  .market:hover {
+    background: linear-gradient(
+      rgba(37, 0, 71, 0.907) 80%,
+      rgb(98, 15, 175) 20%
+    );
+  }
 
-    .notify{
-        width: 1.3rem;
-        height: 1.3rem;
+  .notify {
+    width: 1.3rem;
+    height: 1.3rem;
 
-        border: 2px solid white;
-        border-radius: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
 
-        position: absolute;
-        right: 5px;
-        top: -5px;
+    position: absolute;
+    right: 5px;
+    top: -5px;
 
-        background-color: rgb(119, 0, 0);
+    background-color: rgb(119, 0, 0);
 
-        color: rgb(255, 255, 255);
-        font-weight: bolder;
-        font-size: larger;
-        text-align: center;
-    }
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+  }
 
-    .menu{
-        display: none;
-    }
+  .menu {
+    display: none;
+  }
 }
 
-@media (max-width: 1199px){
-    .container{
-        width: 16rem;
-        height: 2rem;
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-        position: fixed;
-        right: 0.5rem;
-    }
-    
-    .social{
-        height: 100%;
-    
-        display: flex;
-    }
-    
-    .icons{
-        cursor: pointer;
-    
-        margin: 0 10px;
-    }
+@media (max-width: 1199px) {
+  .container {
+    width: 16rem;
+    height: 2rem;
 
-    .icons:hover{
-        background: linear-gradient( rgba(37, 0, 71, 0.907) 80%,  rgba(94, 0, 182, 0.907) 20%);
-    }
-    
-    .space{
-        height: 100%;
-    
-        background-color: rgb(255, 255, 255);
-    
-        margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        cursor: default;
-    }
-    
-    .market{
-        width: 3rem;
-        height: 3rem;
-    
-        cursor: pointer;
-    
-        position: fixed;
-        top: 1rem;
-        right: 1rem;
+    position: fixed;
+    right: 0.5rem;
+  }
 
-        background-color: rgb(37, 0, 71);
+  .social {
+    height: 100%;
 
-        padding: 10px;
-        
-        border-radius: 50%;
-    }
+    display: flex;
+  }
 
-    .market:hover{
-        background-color: rgb(72, 0, 139);
-    }
-    
-    .notify{
-        width: 1.3rem;
-        height: 1.3rem;
-    
-        border: 2px solid white;
-        border-radius: 50%;
-    
-        position: absolute;
-        right: -8px;
-        top: -5px;
-    
-        background-color: rgb(119, 0, 0);
-    
-        color: rgb(255, 255, 255);
-        font-weight: bolder;
-        font-size: larger;
-        text-align: center;
-    }
+  .icons {
+    cursor: pointer;
 
-    .menu{
-        display: flex;
+    margin: 0 10px;
+  }
 
-        margin: 0 10px;
-    }
+  .icons:hover {
+    background: linear-gradient(
+      rgba(37, 0, 71, 0.907) 80%,
+      rgba(94, 0, 182, 0.907) 20%
+    );
+  }
 
-    .icoMenus{
-        display: block;
+  .space {
+    height: 100%;
 
-        margin: 0;
+    background-color: rgb(255, 255, 255);
 
-        cursor: pointer;
-    }
+    margin: 0 10px;
 
-    .icoBack{
-        display: none;
+    cursor: default;
+  }
 
-        cursor: pointer;
-    }
+  .market {
+    width: 3rem;
+    height: 3rem;
+
+    cursor: pointer;
+
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+    background-color: rgb(37, 0, 71);
+
+    padding: 10px;
+
+    border-radius: 50%;
+  }
+
+  .market:hover {
+    background-color: rgb(72, 0, 139);
+  }
+
+  .notify {
+    width: 1.3rem;
+    height: 1.3rem;
+
+    border: 2px solid white;
+    border-radius: 50%;
+
+    position: absolute;
+    right: -8px;
+    top: -5px;
+
+    background-color: rgb(119, 0, 0);
+
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+  }
+
+  .menu {
+    display: flex;
+
+    margin: 0 10px;
+  }
+
+  .icoMenus {
+    display: block;
+
+    margin: 0;
+
+    cursor: pointer;
+  }
+
+  .icoBack {
+    display: none;
+
+    cursor: pointer;
+  }
 }
